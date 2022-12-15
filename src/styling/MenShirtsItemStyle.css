@@ -1,0 +1,19 @@
+.price:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all .4s;
+    
+}
+.price .text2{
+ display: none;
+ transition: all .4s;
+}
+.price:hover .text2{
+    display: inline;
+    transition: all .4s;
+}
+.price:hover .text{
+    display: none;
+    transition: all .4s;
+}
